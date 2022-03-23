@@ -1,0 +1,1 @@
+SELECT * FROM {{NYC_Weather_transform}} AS n
