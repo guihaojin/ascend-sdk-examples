@@ -13,4 +13,5 @@ print(data_services)
 data_services_json = MessageToJson(data_services)
 print(data_services_json)
 
-download_dataflow(client, 'Haojin_dev_test', 'weather', resource_base_path='./partition_filter')
+# download_dataflow(client, 'Haojin_dev_test', 'weather', resource_base_path='./partition_filter')
+download_dataflow(client, '_ascend', 'test', resource_base_path='./partition_join_and_filter')
